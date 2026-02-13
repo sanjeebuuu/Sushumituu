@@ -65,7 +65,7 @@ function FirstPage() {
                 </h1>
             </div>
 
-            <div className='w-[90vw] md:w-[40vw] max-w-[800px] h-auto bg-white rounded-3xl mx-auto mt-8 md:mt-12 p-6 md:p-10 shadow-2xl flex flex-col gap-4 overflow-hidden'>
+            <div className='text-center w-[90vw] md:w-[40vw] max-w-[800px] h-auto bg-white rounded-3xl mx-auto mt-8 md:mt-12 p-6 md:p-10 shadow-2xl flex flex-col gap-4 overflow-hidden'>
                 <p className='text-base md:text-lg leading-relaxed text-gray-800 font-semibold wrap-break-word'>
                     Will You Be My Valentine Sushhhuuumitttuuuu Kaluuuu? 🥺
                 </p>
@@ -76,11 +76,11 @@ function FirstPage() {
                     Talai ma kailai sad huna dinna ani sadhai taile vaneko manxu, tero harekk wishes pura garxu 🥺
                 </p>
                 <p className='text-base md:text-lg leading-relaxed text-gray-800 wrap-break-word'>
-                    Ma talai diku ni dinxu ni😝 Yes vandey😝
+                    Ma talai diku ni dinxu ni😝 <br /> Yes vandey😝
                 </p>
 
                 <p className='text-base md:text-lg leading-relaxed text-gray-800 font-semibold wrap-break-word'>
-                    So will you be my valentine? 🥺🥺🥺
+                    So will you be my valentine? 🥺🥺
                 </p>
 
                 <div className='flex gap-6 justify-center mt-8'>
