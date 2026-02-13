@@ -24,7 +24,7 @@ function NoPage() {
             <div className='w-[90vw] md:w-[50vw] max-w-[800px] h-auto bg-white rounded-3xl mx-auto p-6 md:p-10 shadow-2xl flex flex-col gap-8 relative z-10'>
                 <div className='text-center'>
                     <h1 className='text-3xl md:text-5xl font-bold text-gray-700 mb-4 wrap-break-word'>
-                        No vanxess Jatthi? No😾
+                        No vanxess Jatthi? No? 😾
                     </h1>
                     <p className='text-xl md:text-3xl text-gray-800 font-semibold mt-6 wrap-break-word'>
                         Ta jatthi le malai <del>No</del> vanni?? Malai?? 😾😾
