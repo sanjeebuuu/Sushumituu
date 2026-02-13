@@ -80,7 +80,7 @@ function YesPage() {
                     </p>
 
                     <p className='text-lg text-gray-700 leading-relaxed'>
-                        I lovee youuu soooo muchhhhh babbyyyyy ani ma talai saddhhaaiiii yestaiiii maya garirahanxuuuu kailai talai sad huna dinnaaa ani we will always celebrate valentines day for next 100 years too, aaile ta aba ma yeta, ta uta so this was all I could do for you 😭, I hope talai man parxa hola 😭. Tyo agadi ko page ma Play Button ta press garis ni? 😾 I lovee youuu sabbaiii vanda dheraai, I know we will be together forever my cutieee sushhuuuu😭❤️ Aaile banairaxu so tero message ko reply dehaina, surprise banairaxuu 🙈 Aailappuuuuu suushhuuu babyyyyyy Yestai jhagada gardai ek arka lai fakaudai, maya gardai, risaudai, we will spend our whole lifee together 💋
+                        I lovee youuu soooo muchhhhh babbyyyyy ani ma talai saddhhaaiiii yestaiiii maya garirahanxuuuu kailai talai sad huna dinnaaa ani we will always celebrate valentines day for next 100 years too, aaile ta aba ma yeta, ta uta so this was all I could do for you 😭, I hope talai man parxa hola 😭 Tyo agadi ko page ma Play Button ta press garis ni? 😾 I lovee youuu sabbaiii vanda dheraai, I know we will be together forever my cutieee sushhuuuu😭❤️ Aaile banairaxu so tero message ko reply dehaina, surprise banairaxuu 🙈 Aailappuuuuu suushhuuu babyyyyyy Yestai jhagada gardai ek arka lai fakaudai, maya gardai, risaudai, we will spend our whole lifee together 💋
                     </p>
 
                     <div className='bg-pink-50 p-6 rounded-lg border-2 border-rose-200'>
