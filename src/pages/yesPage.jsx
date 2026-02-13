@@ -1,16 +1,24 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import Confetti from 'react-confetti'
 import '../App.css'
 
 function YesPage() {
     const [showConfetti, setShowConfetti] = useState(true)
+    const [isPlaying, setIsPlaying] = useState(false);
     const [windowDimensions, setWindowDimensions] = useState({
         width: window.innerWidth,
         height: window.innerHeight
     })
+    const audioRef = useRef(null);
 
     useEffect(() => {
         // Play confetti sound when page loads
+        const playMusic = () => {
+        audioRef.current?.play();
+        setIsPlaying(true);
+    };
+    playMusic()
+
         const confettiAudio = new Audio('/audios/confetti.mp3')
         confettiAudio.play().catch(err => console.log('Audio play failed:', err))
 
@@ -94,6 +102,7 @@ function YesPage() {
                         <br />
                         Sanjeeb Lovess Youu Sooooo Soooooo Sooooooo Muchhhh Meri Sushuuu😭💋❤️
                     </p>
+                    <audio ref={audioRef} src="/audios/eighteen.mp3" loop />
                 </div>
             </div>
         </div>

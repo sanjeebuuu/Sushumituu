@@ -18,17 +18,18 @@ function FirstPage() {
 
     const handleYesClick = async () => {
         // Play confetti sound
-        try {
-            if (confettiAudioRef.current) {
-                await confettiAudioRef.current.play();
-            }
-        } catch (error) {
-            console.log('Audio play failed:', error);
-        }
-        // Navigate after sound starts playing
-        setTimeout(() => {
-            navigate('/yes', { state: { playConfettiSound: true } })
-        }, 300)
+        // try {
+        //     if (confettiAudioRef.current) {
+        //         await confettiAudioRef.current.play();
+        //     }
+        // } catch (error) {
+        //     console.log('Audio play failed:', error);
+        // }
+        // // Navigate after sound starts playing
+        // setTimeout(() => {
+        //     navigate('/yes', { state: { playConfettiSound: true } })
+        // }, 300)
+        navigate('/yes', { state: { playConfettiSound: true } })
     }
 
     const handleNoClick = () => {
