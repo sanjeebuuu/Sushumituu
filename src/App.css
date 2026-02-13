@@ -1,0 +1,94 @@
+/* Rising hearts animation */
+@keyframes riseUp {
+  0% {
+    bottom: -10%;
+    opacity: 1;
+    transform: translateX(0) rotate(0deg);
+  }
+
+  50% {
+    opacity: 0.8;
+  }
+
+  100% {
+    bottom: 110%;
+    opacity: 0;
+    transform: translateX(var(--drift)) rotate(360deg);
+  }
+}
+
+.heart {
+  position: fixed;
+  bottom: -10%;
+  font-size: 2rem;
+  animation: riseUp 8s linear infinite;
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* Different delays and positions for each heart */
+.heart:nth-child(1) {
+  left: 10%;
+  animation-delay: 0s;
+  --drift: 20px;
+}
+
+.heart:nth-child(2) {
+  left: 20%;
+  animation-delay: 1s;
+  font-size: 1.5rem;
+  --drift: -30px;
+}
+
+.heart:nth-child(3) {
+  left: 30%;
+  animation-delay: 2s;
+  font-size: 2.5rem;
+  --drift: 40px;
+}
+
+.heart:nth-child(4) {
+  left: 40%;
+  animation-delay: 3s;
+  --drift: -20px;
+}
+
+.heart:nth-child(5) {
+  left: 50%;
+  animation-delay: 4s;
+  font-size: 1.8rem;
+  --drift: 30px;
+}
+
+.heart:nth-child(6) {
+  left: 60%;
+  animation-delay: 5s;
+  font-size: 2.2rem;
+  --drift: -40px;
+}
+
+.heart:nth-child(7) {
+  left: 70%;
+  animation-delay: 6s;
+  --drift: 25px;
+}
+
+.heart:nth-child(8) {
+  left: 80%;
+  animation-delay: 7s;
+  font-size: 1.6rem;
+  --drift: -35px;
+}
+
+.heart:nth-child(9) {
+  left: 90%;
+  animation-delay: 1.5s;
+  font-size: 2.3rem;
+  --drift: 45px;
+}
+
+.heart:nth-child(10) {
+  left: 15%;
+  animation-delay: 4.5s;
+  --drift: -25px;
+}
