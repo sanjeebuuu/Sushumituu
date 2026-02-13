@@ -76,7 +76,7 @@ function FirstPage() {
                     Talai ma kailai sad huna dinna ani sadhai taile vaneko manxu, tero harekk wishes pura garxu 🥺
                 </p>
                 <p className='text-base md:text-lg leading-relaxed text-gray-800 wrap-break-word'>
-                    Ma talai diku ni dinxu ni 😝 Yes vandey 😝😝
+                    Ma talai diku ni dinxu ni😝 Yes vandey😝
                 </p>
 
                 <p className='text-base md:text-lg leading-relaxed text-gray-800 font-semibold wrap-break-word'>
